@@ -1,0 +1,145 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="utf-8")
+        title TEST PROJECT
+        meta(name="description", content="")
+        meta(name="author", content="")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="css/style.css")
+
+    body
+
+        .wrapper
+
+            .header-wrapper
+                .header.container
+                    ul.header__list
+                        li.header__item: a(href="#").header__links <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                        li.header__item: a(href="#").header__links <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                        li.header__item: a(href="").header__links <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+                    .header-box
+                        h1.header__title test <span class="header__icon">project</span>
+                        a(href="#").header__link Download
+
+            section.about-us-wrapper
+                .about-us.container
+                    h2.about-us__title About us
+                    p.about-us__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit.
+
+            section.our-history.container
+                .our-history-hidden
+                    marquee(direction="right", loop="-1", scrolldelay="10", scrollamount="10").our-history-hidden__text Layers are hidden to save space
+                .row
+                    .our-history__left.columns.six
+                        img(src="images/about-us.jpg").our-history__img
+                    .our-history__right.columns.six
+                        h2.our-history__title Our history
+                        p.our-history__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                        p.our-history__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+            section.our-skills-wrapper
+                .our-skills.container
+                    h2.our-skills__title Our skills
+                    p.our-skills__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.
+                    .row.skill-box
+                        figure.our-skills__figure
+                            canvas(height='200' id='html' width='200')
+                            figcaption.our-skills__figcaption <span class="our-skills__icon">75%</span> Html
+                        figure.our-skills__figure
+                            canvas(height='200' id='css' width='200')
+                            figcaption.our-skills__figcaption <span class="our-skills__icon">80%</span> Css
+                        figure.our-skills__figure
+                            canvas(height='200' id='wordpress' width='200')
+                            figcaption.our-skills__figcaption <span class="our-skills__icon">70%</span> Wordpress
+                        figure.our-skills__figure
+                            canvas(height='200' id='seo' width='200')
+                            figcaption.our-skills__figcaption <span class="our-skills__icon">85%</span> Seo
+
+
+
+            section.our-team.container
+                h2.our-team__title Our team
+                p.our-team__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.
+                .row
+                    figure.columns.four.our-team__figure
+                        .figure-box
+                            img(src="images/figure-1.jpg").figure__img
+                        figcaption
+                            .figure-user.user
+                                p.user__name user#1
+                                p.user__profession ceo
+                            .figure-socials.socials
+                                ul.socials__list
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+
+                    figure.columns.four.our-team__figure
+                        .figure-box
+                            img(src="images/figure-2.jpg").figure__img
+                        figcaption
+                            .figure-user.user
+                                p.user__name user#2
+                                p.user__profession Marketing Head
+                            .figure-socials.socials
+                                ul.socials__list
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+
+                    figure.columns.four.our-team__figure
+                        .figure-box
+                            img(src="images/figure-3.jpg").figure__img
+                        figcaption
+                            .figure-user.user
+                                p.user__name user#3
+                                p.user__profession project Head
+                            .figure-socials.socials
+                                ul.socials__list
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                    li.socials__item: a(href="#").socials__link <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+
+
+            section.contact-us-wrapper
+                .contact-us.container
+                    h2.contact-us__title Contact us
+                    p.contact-us__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut.
+                    .row
+                        .contact-details.columns.six
+                            h3.contact-details__title Contact details
+                            .contact-details__box.box
+                                p.box__text <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> Stret / House / Zip
+                            .contact-details__box.box
+                                p.box__text <span><i class="fa fa-phone" aria-hidden="true"></i></span> 111-111-1111
+                            .contact-details__box.box
+                                p.box__text <span><i class="fa fa-envelope" aria-hidden="true"></i></span> email@1.com
+                            p.contact-details__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                        .send-message.columns.six
+                            h3.contact-details__title Send us a message
+                            form.form
+                                .row
+                                    .columns.six
+                                        input.u-full-width.form__text(type="text" placeholder="name")
+                                    .columns.six
+                                        input.u-full-width.form__text(type="email" placeholder="email")
+                                    .columns.twelve
+                                        textarea.u-full-width.form__text.form__text_height(placeholder="subject")
+                                        input.button-primary.form__submit(type="submit" value="send")
+
+
+            footer.footer.container
+                ul.footer__list
+                    li.footer__item: a(href="#").footer__links <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                    li.footer__item: a(href="#").footer__links <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                    li.footer__item: a(href="").footer__links <i class="fa fa-google-plus fa-lg" aria-hidden="true"></i>
+
+
+
+
+
+
+    script(src="js/jquery-3.0.0.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js")
+    script(src="js/functions.js")
+
+

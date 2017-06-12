@@ -1,0 +1,61 @@
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 1160px) {
+  .our-skills__figure {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-right: 50px;
+      margin-bottom: 0;
+    }
+    &:first-child {
+      margin-left: 50px;
+    }
+  }
+
+}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {
+  .our-history__right {
+    padding: 50px 0 0 0px;
+  }
+}
+
+/* Larger than tablet */
+@media (max-width: 750px) {
+  .our-history-hidden {
+    display: none;
+  }
+  .about-us__text {
+    width: 100%;
+  }
+  .our-skills__text {
+    width: 100%;
+  }
+  .our-team__text {
+    width: 100%;
+  }
+  .contact-us__text {
+    width: 100%;
+  }
+}
+
+/* Larger than tablet (also point when grid becomes active) */
+@media (max-width: 550px) {}
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+  .our-skills__figure {
+    margin-right: 0;
+    margin-left: 0;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
