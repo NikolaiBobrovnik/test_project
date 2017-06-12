@@ -106,3 +106,7 @@ $.each(data, function (key, data) {
         }, offset);
     }
 });
+
+window.sr = ScrollReveal();
+sr.reveal('.our-history__left', { duration: 1000 });
+sr.reveal('.our-history__right', { duration: 2000 });
